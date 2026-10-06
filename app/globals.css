@@ -1,0 +1,209 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: 0.4s linear;
+
+}
+
+header {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../public/banner.png);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+
+
+
+
+
+.logo img {
+    width: 135px;
+    margin-right: 27rem;
+
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+
+nav a {
+    margin: 8px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-left: 2rem;
+    font-weight: 500;
+}
+
+nav a:hover {
+    transition: 0.3s linear;
+    content: "";
+    color: #f44336;
+
+}
+
+.text {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+
+.background {
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../public/background.jpg);
+
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    background-attachment: fixed;
+
+
+}
+
+.text h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 53px;
+
+}
+
+
+.card {
+    padding: 15px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+.text p {
+    line-height: 1.7;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+
+}
+
+.btns {
+    padding: 1rem;
+    margin-top: 3rem;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.btns:hover {
+    background-color: #f44336;
+    border: 2px solid #f44336;
+
+
+}
+
+.btns2{
+
+    background-color: transparent;
+    border: 3px solid #f44336;
+    padding: 0.7rem;
+    width: 35%;
+    color: #f44336;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+.btns2:hover {
+    background-color: #f44336;
+    color: #fff;
+    cursor: pointer;
+
+
+}
+
+.ini {
+    margin-top: 7rem;
+}
+
+.ini h1 {
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 2rem;
+}
+
+.ini p {
+    text-align: center;
+    color: #777;
+    font-size: 14px;
+    width: 900px;
+    margin-left: 13rem;
+    line-height: 1.6;
+}
+
+.background h1 {
+    text-align: center;
+    margin-top: 10rem;
+    color: #fff;
+    font-size: 35px;
+}
+
+.active {
+
+    color: #f44336;
+
+}
+
+
+
+.par h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f44336;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.user img{
+    width:55px;
+    border-radius: 50%;
+}
+
+.card{
+
+    padding: 20px;
+
+}
+
+.back{
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../public/banner2.jpg);
+
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    background-attachment: fixed;
+}
