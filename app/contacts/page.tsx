@@ -7,23 +7,22 @@ export default function contacts() {
 
             <section className="background">
                 <nav>
-                    
                     <div className="logo">
                         <img src="/logo.png" alt="" />
                     </div>
                     <div className="disp">
-                        <Link className=" text-decoration-none" href="/"><i className="bi bi-house me-2 "></i>Home</Link>
-                        <Link className="text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>About</Link>
+                        <Link className="active text-decoration-none" href="#"><i className="bi bi-house me-2 "></i>Inicio</Link>
+                        <Link className="text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>sobre Nós</Link>
 
-                        <Link className="text-decoration-none" href="/courses"><i className="bi bi-mortarboard me-2 "></i>Courses</Link>
-                        <Link className="text-decoration-none" href="/blog"><i className="bi bi-journal-text me-2 "></i>Blog</Link>
-                        <Link className="active text-decoration-none" href="/contacts"><i className="bi bi-telephone me-2 "></i>Contacts</Link>
+                        <Link className="text-decoration-none" href="/cursos"><i className="bi bi-mortarboard me-2 "></i>Cursos</Link>
+                        <Link className="text-decoration-none" href="/programas"><i className="bi bi-journal-text me-2 "></i>Programas</Link>
+                        <Link className="text-decoration-none" href="/contacts"><i className="bi bi-telephone me-2 "></i>Contactos</Link>
                     </div>
 
 
                 </nav>
 
-                <h1 className="fw-bold">Contacts</h1>
+                <h1 className="fw-bold">Contactos</h1>
             </section>
 
             <section className="mt-5 pt-5">
@@ -38,20 +37,20 @@ export default function contacts() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3 className=" fs-5 fw-bold"><i className="bi bi-house-fill text-danger fs-4 me-3"></i>University of Engineering and Management, <span className="ms-5 ps-2">Gurukul Campus</span></h3>
+                            <h3 className=" fs-5 fw-bold"><i className="bi bi-house-fill text-danger fs-4 me-3"></i>Universidade Eduford</h3>
                             <p className="ms-5 text-secondary">Angola, Luanda</p> <br />
                             <h3 className=" fs-3 fw-bold"><i className="bi bi-telephone-fill text-danger fs-4 me-3"></i>945028096 - 953314520</h3>
-                            <p className="ms-5 text-secondary">Monday to Friday, at 05:00AM to 09:30PM </p> <br />
+                            <p className="ms-5 text-secondary">Segunda a Sexta, as 05:00AM até 09:30PM </p> <br />
                             <h3 className=" fs-5 fw-bold"><i className="bi bi-envelope-fill text-danger fs-4 me-3"></i>Eduford@gmail.com</h3>
-                            <p style={{ marginLeft: "35px" }} className=" text-secondary">Send Your Message</p>
+                            <p style={{ marginLeft: "35px" }} className=" text-secondary">Deixe nos um email</p>
                         </div>
 
                         <div className="col-md-6">
                             <div style={{ padding: "20px" }} className="card rounded-0">
-                                <h5 style={{ fontSize: "16px" }} className="fw-bold mb-4">Send You Message</h5>
-                                <input style={{ backgroundColor: "#ccc", fontSize: "14px" }} type="email" className="form-control rounded-0 mt-4" name="" id="" placeholder="Enter You Email" required />
-                                <input style={{ backgroundColor: "#ccc", fontSize: "14px" }} type="text" className="form-control rounded-0 mt-4" name="" id="" placeholder="Enter You Subject" required />
-                                <textarea style={{ backgroundColor: "#ccc", fontSize: "14px" }} className="mt-4 form-control rounded-0" placeholder="Enter Your Message" rows={7} name="" id="" required></textarea>
+                                <h5 style={{ fontSize: "16px" }} className="fw-bold mb-4">Deixe-nos uma mensagem</h5>
+                                <input style={{ backgroundColor: "#ccc", fontSize: "14px" }} type="email" className="form-control rounded-0 mt-4" name="" id="" placeholder="Digite seu email" required />
+                                <input style={{ backgroundColor: "#ccc", fontSize: "14px" }} type="text" className="form-control rounded-0 mt-4" name="" id="" placeholder="Digite o seu Assunto" required />
+                                <textarea style={{ backgroundColor: "#ccc", fontSize: "14px" }} className="mt-4 form-control rounded-0" placeholder="A sua Mensagem" rows={7} name="" id="" required></textarea>
                                 <button type="submit" className="btns2 mt-5">Send Message</button>
                             </div>
 
@@ -78,7 +77,7 @@ export default function contacts() {
                         <img src="/logo.png" alt="" />
                     </div>
 
-                    <p style={{ marginTop: "2rem" }} className=" pt-5 text-center text-white">Eduford University <br /> Todos sos Direitos Reservados &copy; 2027</p>
+                    <p style={{ marginTop: "2rem" }} className=" pt-5 text-center text-white">Universidade Eduford <br /> Todos sos Direitos Reservados &copy; 2027</p>
                 </footer>
             </section>
 

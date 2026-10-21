@@ -10,26 +10,26 @@ export default function about() {
                         <img src="/logo.png" alt="" />
                     </div>
                     <div className="disp">
-                        <Link className=" text-decoration-none" href="/"><i className="bi bi-house me-2 "></i>Home</Link>
-                        <Link className="active text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>About</Link>
+                        <Link className=" text-decoration-none" href="/"><i className="bi bi-house me-2 "></i>Inicio</Link>
+                        <Link className="active text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>Sobre Nóst</Link>
 
-                        <Link className="text-decoration-none" href="/courses"><i className="bi bi-mortarboard me-2 "></i>Courses</Link>
-                        <Link className="text-decoration-none" href="/blog"><i className="bi bi-journal-text me-2 "></i>Blog</Link>
-                        <Link className="text-decoration-none" href="/contacts"><i className="bi bi-telephone me-2 "></i>Contacts</Link>
+                        <Link className="text-decoration-none" href="/courses"><i className="bi bi-mortarboard me-2 "></i>Cursos</Link>
+                        <Link className="text-decoration-none" href="/blog"><i className="bi bi-journal-text me-2 "></i>Programas</Link>
+                        <Link className="text-decoration-none" href="/contacts"><i className="bi bi-telephone me-2 "></i>Contactos</Link>
                     </div>
 
 
                 </nav>
 
 
-                <h1 className="fw-bold">About Us</h1>
+                <h1 className="fw-bold">Sobre Nós</h1>
             </section>
             <div className="container mt-5 pt-5">
                 <div className="row">
                     <div className="col-md-6">
-                        <h3 className="fw-bold fs-4 text-start">We are the world's largest teaching platform</h3>
-                        <p style={{ fontSize: "14px" }} className="text-secondary lh-lg">Eduford University is one of the world’s leading academic and research institutions, offering a unique educational experience that prepares the next generation of global citizens to lead and make a difference in the world. We are a vibrant community of exceptional students, faculty, alumni and professionals dedicated to real-world applications of our research, scholarship, faith and service. Established in 1989, Eduford is the nation’s oldest Catholic and Jesuit university. Drawing upon the 450-year-old legacy of Jesuit education, we provide students with a world-class learning experience focused on educating the whole person through exposure to different faiths, cultures and beliefs.</p>
-                        <button className="btns2"><Link href="/contacts" className="text-danger text-decoration-none">Contact Us</Link></button>
+                        <h3 className="fw-bold fs-4 text-start">Nós Somos a Melhor de Angola</h3>
+                        <p style={{ fontSize: "14px" }} className="text-secondary lh-lg">Nós somos a Edufor teremos prazer de receber te aqui na familia a edufor foi fundada ao 22 de Abril de 1980 em Luanda Angola pelo nosso Querido e Senhor Pedro Malheiro ele foi um grande politico árabe que revolucionou o mundo da politica então quandro veio em Angola surgiu-lhe a ideia de criar uma unvirsidade ele mais a sua familia tiveram a iniciativa de cria a eduford por meios de materias fracos como paus , adobo entre outros mais com o passar do tempo e desenvilvimento tecnologico então a universidade foi crescendo ese tronou no ranking mundia a 4 melhor do mundo então de cabeça erguida a edufor cresceu até o que é hoje</p>
+                        <button className="btns2"><Link href="/contacts" className="text-danger text-decoration-none">Contacta-nos</Link></button>
                     </div>
 
                     <div className="col-md-6">
@@ -52,7 +52,7 @@ export default function about() {
                         <img src="/logo.png" alt="" />
                     </div>
 
-                    <p style={{ marginTop: "2rem" }} className=" pt-5 text-center text-white">Eduford University <br /> Todos sos Direitos Reservados &copy; 2027</p>
+                    <p style={{ marginTop: "2rem" }} className=" pt-5 text-center text-white">Universidade Eduford<br /> Todos sos Direitos Reservados &copy; 2027</p>
                 </footer>
             </section>
 
