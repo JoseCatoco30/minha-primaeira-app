@@ -11,7 +11,7 @@ export default function blog() {
                         <img src="/logo.png" alt="" />
                     </div>
                     <div className="disp">
-                        <Link className=" text-decoration-none" href="#"><i className="bi bi-house me-2 "></i>Inicio</Link>
+                        <Link className=" text-decoration-none" href="/"><i className="bi bi-house me-2 "></i>Inicio</Link>
                         <Link className="text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>sobre Nós</Link>
 
                         <Link className="active text-decoration-none" href="/cursos"><i className="bi bi-mortarboard me-2 "></i>Cursos</Link>

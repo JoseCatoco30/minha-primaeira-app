@@ -11,11 +11,11 @@ export default function courses() {
                         <img src="/logo.png" alt="" />
                     </div>
                     <div className="disp">
-                        <Link className="active text-decoration-none" href="#"><i className="bi bi-house me-2 "></i>Inicio</Link>
+                        <Link className=" text-decoration-none" href="/"><i className="bi bi-house me-2 "></i>Inicio</Link>
                         <Link className="text-decoration-none" href="/about"><i className="bi bi-info-circle me-2 "></i>sobre Nós</Link>
 
                         <Link className="text-decoration-none" href="/cursos"><i className="bi bi-mortarboard me-2 "></i>Cursos</Link>
-                        <Link className="text-decoration-none" href="/programas"><i className="bi bi-journal-text me-2 "></i>Programas</Link>
+                        <Link className="active text-decoration-none" href="/programas"><i className="bi bi-journal-text me-2 "></i>Programas</Link>
                         <Link className="text-decoration-none" href="/contacts"><i className="bi bi-telephone me-2 "></i>Contactos</Link>
                     </div>
 
